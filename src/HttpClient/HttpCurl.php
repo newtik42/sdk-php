@@ -11,7 +11,7 @@ class HttpCurl implements \NewTik\TempletSDKPHP\HttpClient\ClientInterface {
         CURLOPT_HEADER => false,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_CONNECTTIMEOUT => 60,
-        CURLOPT_USERAGENT => 'php-sdk',
+        CURLOPT_USERAGENT => 'NewTik-TempletSDKPHP-sdk-php',
         CURLOPT_SSL_VERIFYHOST => 2,
         CURLOPT_SSL_VERIFYPEER => 1,
         CURLOPT_TIMEOUT => 60
