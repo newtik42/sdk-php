@@ -1,0 +1,16 @@
+{
+  "name": "newtik/TempletSDKPHP",
+  "description": "PHP SDK for TempletSDKPHP API",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NewTik\\TempletSDKPHP\\": "src/"
+    }
+  }
+}
